@@ -2,10 +2,19 @@ name: electricity-map
 channels:
   - conda-forge
 dependencies:
+  - python=3.11
+  - pip
   - arrow
   - pandas
-  - beautifulsoup4
   - ipyleaflet
   - ipyflex
+  - ipywidgets
   - bqplot
   - voila
+  - voila-material
+  - geopy
+  - requests 
+  - pip:
+      - aioelectricitymaps==1.0.0
+      
+  
